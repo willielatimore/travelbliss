@@ -1,0 +1,496 @@
+/* General Styles */
+body {
+    font-family: 'DM Serif Text';
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ff4500;
+}
+p{
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+}
+/* Navigation Bar */
+.navbar-nav .nav-item {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff4500; 
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.699)50%,rgba(0, 0, 0, 0.699))50%,url('Images/background.jpg');
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.big-heading{
+    font-size: 4rem;
+    padding-top: 250px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
+.btn{
+    background-color: #ff4500;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #f9f9f9;
+    color: #ff4500;
+}
+/* About Section Styles */
+#about {
+    background-color: #f9f9f9; 
+    padding: 50px 0; 
+    color: #333;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff4500; 
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+#about img {
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Services Section */
+#services {
+    background-color:  #fff0e6;
+    padding: 60px 0;
+}
+
+#services .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+#services .section-subtitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: -40px auto 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    color: #ff4500;
+}
+
+.service-card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+/* Why Choose Us Section */
+#why-choose-us {
+    background: url('Images/why_chose_us-transformed.jpeg') no-repeat center center/cover;
+    padding: 100px 0;
+    position: relative;
+    color: #fff;
+}
+
+#why-choose-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+#why-choose-us .container {
+    position: relative;
+    z-index: 2;
+}
+
+#why-choose-us .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+#why-choose-us .section-subtitle {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 40px;
+}
+
+.choose-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    color: #222;
+}
+
+.choose-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    background: #ff4500;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: -40px auto 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    color: #fff;
+}
+
+.choose-card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.choose-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+
+
+/* Related Tours Section */
+#related-tours {
+    padding: 80px 0;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+#related-tours .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff4500;
+}
+
+#related-tours .section-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.tour-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.tour-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tour-img {
+    position: relative;
+}
+
+.tour-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.price-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ff4500;
+    font-size: 1.2rem;
+}
+
+.price-tag del {
+    color: #888;
+    margin-right: 5px;
+}
+
+.stars {
+    color: #ff4500;
+    font-size: 1rem;
+}
+
+.tour-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.tour-info h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.tour-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.view-details {
+    color: #ff4500;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.view-details:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'DM Serif Text';
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Signup Section */
+.signup h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.signup p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.disclaimer {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.disclaimer a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.disclaimer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.footer-links div {
+    min-width: 150px;
+}
+
+.footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #ff4500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom li {
+    margin: 0 10px;
+}
+
+.footer-bottom a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive Styles Navigation Bar*/
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+}
+/* Responsive Styles for About Section */
+@media (max-width: 768px) {
+    #about h2 {
+        font-size: 2rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
+    #about img {
+        margin-top: 20px; 
+    }
+}
+/* Responsive Styles services section */
+@media (max-width: 768px) {
+    .service-card {
+        margin-bottom: 20px;
+    }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .choose-card {
+        margin-bottom: 20px;
+    }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .tour-card {
+        margin-bottom: 20px;
+    }
+}
